@@ -1,3 +1,8 @@
-export default function Square() {
-  return <button className="square">X</button>;
+export default function App() {
+  return (
+    <button className="square">
+      <Circle></Circle>
+      <Circle></Circle>
+    </button>
+  );
 }
